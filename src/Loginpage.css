@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+#header{
+    display: flex;
+    background-color: rgb(182, 165, 165);
+    height: 10rem;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+}
+
+#middle{
+    display: flex;
+    color: blue;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+#input{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    
+}
+
+.inputs{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+#btn{
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 15rem;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+.container2{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    align-items: space-around;
+    justify-content: center;
+  }
+  
+  .userInput{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .otpinput{
+    margin: 10px;
+    height: 35px;
+    width: 65px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arimo;
+    font-size: 1.2rem;
+    background: #eef2f3;
+  
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+  }
+  #findsup{
+    display: flex;
+    justify-content: center;
+  }
+
+  #enterno{
+    display: flex;
+    justify-content: center;
+  }
+  #enterno input{
+    border: 2px solid black;
+    border-radius: 1em;
+    height: 2em;
+    margin: 0px 1em;
+    padding: 5px;
+    
+  }
+  #enterno button{
+    border: 2px solid black;
+    height: 2.2em;
+    margin: 0px 1em;
+    margin-top: 0.4em;
+    cursor: pointer;
+    
+  }
+
+  #confirm{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    
+    height: 40px;
+    margin: 25px auto 0px auto;
+    font-family: arimo;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background: #616161;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  
